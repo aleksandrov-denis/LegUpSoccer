@@ -55,7 +55,7 @@
                 font-size:150%;
                 font-weight: lighter;
                 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                color: rgb(239, 247, 239);
+                color: rgb(28, 114, 28);
             }
             .container{
                 position: relative;
@@ -64,9 +64,12 @@
                 margin-top: 1.4%;
                 object-fit: cover;
                 width: 100%;
-                height: 300px;
+                height: 200px;
                 transition: .5s ease;
                 backface-visibility: hidden;
+                background-image: url(images/grass-field-copy.jpg);
+                background-attachment: fixed;
+                background-size: cover;
             }
             .mid{
                 transition: .5s ease;
@@ -84,15 +87,20 @@
             .container:hover .mid{
                 opacity: 1;
             }
-            .blurb{
-                text-align:center;
+            .block{
+                float: left;
+                width: 30%;
+                padding: 1.11%;
+            }
+            .qualities{
+                text-align: center;
                 font-size:150%;
                 font-weight: lighter;
                 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 color: rgb(42, 167, 42);
             }
             .kid-playing{
-                margin-top: .9%;
+                margin-top: 200px;
                 /*width: 100%;*/
                 height: 300px;
                 background-image: url(images/kid-playing.jpg);
@@ -106,7 +114,7 @@
                 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 color: rgb(42, 167, 42);
             }
-            p.about-training{
+            p{
                 text-align: center;
                 font-size:100%;
                 font-weight: lighter;
@@ -138,13 +146,31 @@
         <!--<a class="book" href="book.html">Book Your Appointment</a>-->
         </br>
         <div class="container">
-            <img class="field" src="images/grass-field-copy.jpg" alt="Image of kid playing soccer">
+            <div class="field"></div>
             <div class="mid">
                 <div class="contact">William Brown ▪ (617) 236-6783 ▪ willyb@ligma.co</div>
             </div>
         </div>
-        <h2 class="blurb">We Guarantee a Safe, Caring, and Fun Experience</h1>
-        <!--<img class="kid-playing" src="images/kid-playing.jpg" alt="Image of a grass field">
+        <div class="row">
+            <div class="block">
+                <h2 class="qualities">Safe</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac augue id diam luctus fermentum non ac nulla. Maecenas nec.</p>
+            </div>
+            <div class="block">
+                <h2 class="qualities">Caring</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac augue id diam luctus fermentum non ac nulla. Maecenas nec.</p>
+            </div>
+            <div class="block">
+                <h2 class="qualities">Fun</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac augue id diam luctus fermentum non ac nulla. Maecenas nec.</p>
+            </div>
+        </div>
+        <!--
+        <h2 class="qualities">Safe</h2>
+        <h2 class="qualities">Caring</h2>
+        <h2 class="qualities">Fun</h2>-->
+        <!--<h2 class="blurb">We Guarantee a Safe, Caring, and Fun Experience</h1>
+        <img class="kid-playing" src="images/kid-playing.jpg" alt="Image of a grass field">
         -->
         <div class="kid-playing"></div>
         <!--<img class="mySlides" src="images/girls.jpg" alt="Image of girls playing soccer">
@@ -152,7 +178,7 @@
         <button class="button display-left" onclick="plusDivs(-1)">&#10094;</button>
         <button class="button display-right" onclick="plusDivs(+1)">&#10095;</button>-->
         <h2 class="as" id="AS">Give your child an opportunity to really love soccer</h2>
-            <p class="about-training">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam velit quam, pulvinar quis congue eu, consequat non nisi. Mauris ultricies eleifend sollicitudin. Morbi ac placerat turpis. Donec tortor elit, sagittis dignissim ipsum malesuada, fermentum fringilla neque. Donec blandit convallis turpis eget volutpat. Mauris dapibus, ex eget gravida fermentum, diam orci viverra enim, id porta arcu elit eget ipsum. Nam consectetur purus augue, accumsan tincidunt libero elementum nec. Integer tortor dolor, feugiat at est eget, sodales vehicula mi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam velit quam, pulvinar quis congue eu, consequat non nisi. Mauris ultricies eleifend sollicitudin. Morbi ac placerat turpis. Donec tortor elit, sagittis dignissim ipsum malesuada, fermentum fringilla neque. Donec blandit convallis turpis eget volutpat. Mauris dapibus, ex eget gravida fermentum, diam orci viverra enim, id porta arcu elit eget ipsum. Nam consectetur purus augue, accumsan tincidunt libero elementum nec. Integer tortor dolor, feugiat at est eget, sodales vehicula mi.</p>
         <img class="will" src="images/willyb.png" alt="Image of Willy B">
         <h2 class="greeting" id="AW">About your trainer</h2>
     </body>
