@@ -82,7 +82,7 @@ a.home:hover{
     opacity: 1;
 }
 .row{
-    height: 200px;
+    height: 150px;
 }
 .block{
     float: left;
@@ -103,13 +103,6 @@ a.home:hover{
     background-attachment: fixed;
     background-size: cover;
 }
-h2.as{
-    text-align: center;
-    font-size:150%;
-    font-weight: lighter;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(109, 174, 240);
-}
 p{
     text-align: center;
     font-size:100%;
@@ -117,15 +110,10 @@ p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(42, 167, 42);
 }
-.whyplay{
-    margin-left: 10%;
-    margin-right: 10%;
-}
 img.will {
-    float:left;
-    width: 15%;
+    width: 75%;
+    margin-left: 15%;
     border-radius: 150px;
-    margin: 3%;
 }
 h2.greeting{
     margin-top: 5%;
