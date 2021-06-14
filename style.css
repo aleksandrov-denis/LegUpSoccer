@@ -84,10 +84,18 @@ a.home:hover{
 .row{
     height: 150px;
 }
+.row2{
+    height: 450px;
+}
 .block{
     float: left;
     width: 30%;
     padding: 1.5%;
+}
+.block2{
+    float: left;
+    width: 46%;
+    padding: 2%;
 }
 .qualities{
     text-align: center;
@@ -110,14 +118,15 @@ p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(42, 167, 42);
 }
-img.will {
-    width: 75%;
-    margin-left: 15%;
-    border-radius: 150px;
+.bump {
+    margin-top: 4%;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 10px;
 }
 h2.greeting{
     margin-top: 5%;
-    margin-left: 43%;
+    text-align: center;
     font-size: 150%;
     font-weight: lighter;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
